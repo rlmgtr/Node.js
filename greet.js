@@ -1,1 +1,4 @@
-const args = process.argv.slie(2)
+const args = process.argv.slice(2);
+// review argv
+
+cwd
