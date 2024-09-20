@@ -1,0 +1,4 @@
+npm init - y to create package and package lock json
+
+in package.json, add the file name in *main and in *start, add the run syntax which is node filename.js
+Explicit console log - indicates where the function is coming from. Implicit is the opposite. 
