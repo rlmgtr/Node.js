@@ -1,13 +1,11 @@
 import express from "express";
-import dotenv from 'dotenv';
-
-
+import userRouter from "./routers/users.js";
 
 const app = express();
 
-app.use("/", (res, req) => {
+app.use("/user", userRouter);
 
-});
+
 
 
 
